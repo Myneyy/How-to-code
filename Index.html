@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Über Mich</title>
-    <img src="IMG_0779.jpeg" alt="Welcome Bild" class="einstiegsbild">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,26 +41,20 @@
             text-decoration: underline;
         }
 
-
         .einstiegsbild {
-            width: 100%;
-            height: auto;
-            max-height: 400px;
-            margin-top: 50px;
-            margin-left: 0px;
-            margin-right: 0px;
-
-            
+            width: 100%; /* Passt die Breite an die Seite an */
+            height: auto; /* Erhält das Seitenverhältnis */
+            max-height: 200px; /* Maximale Höhe anpassen */
+            margin: 50px 0 0 0; /* Abstand nach oben, kein Abstand links und rechts */
+            display: block; /* Sicherstellen, dass das Bild als Blockelement angezeigt wird */
+        }
 
         main {
-            padding: 60 20px;
+            padding: 20px; /* Padding für den Hauptinhalt */
         }
 
         section {
             margin: 20px 0;
-        }
-
-    
         }
     </style>
 </head>
@@ -77,6 +70,7 @@
             </ul>
         </nav>
     </header>
+    <img src="IMG_0779.jpeg" alt="Welcome Bild" class="einstiegsbild"> <!-- Bild hier verschieben -->
     <main>
         <section id="about">
             <h1>Über mich</h1>
